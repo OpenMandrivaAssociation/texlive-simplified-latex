@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simplified-latex.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 An accessible introduction for the beginner.
@@ -27,7 +25,6 @@ An accessible introduction for the beginner.
 %doc %{_texmfdistdir}/doc/latex/simplified-latex/README
 %doc %{_texmfdistdir}/doc/latex/simplified-latex/simplified-intro.pdf
 %doc %{_texmfdistdir}/doc/latex/simplified-latex/source.zip
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -38,5 +35,3 @@ An accessible introduction for the beginner.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
