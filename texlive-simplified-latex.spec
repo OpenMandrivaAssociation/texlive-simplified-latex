@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-simplified-latex
 Version:	20101129
-Release:	4
+Release:	5
 Summary:	A Simplified Introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/simplified-latex
