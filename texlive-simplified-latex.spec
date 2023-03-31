@@ -1,6 +1,6 @@
 Name:		texlive-simplified-latex
 Version:	20620
-Release:	1
+Release:	2
 Summary:	A Simplified Introduction to LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/simplified-latex
