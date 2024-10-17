@@ -3,7 +3,7 @@ Version:	20620
 Release:	2
 Summary:	A Simplified Introduction to LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/simplified-latex
+URL:		https://www.ctan.org/tex-archive/info/simplified-latex
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simplified-latex.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simplified-latex.doc.r%{version}.tar.xz
